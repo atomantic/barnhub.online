@@ -13,11 +13,14 @@
     a:hover { text-decoration: underline; }
     .links { margin-top: 2rem; }
     .links a { display: block; margin: 1rem 0; }
-    .locales { margin-top: 3rem; font-size: 0.9rem; color: #666; border-top: 1px solid #eee; padding-top: 2rem; }
-    .locales h3 { color: #2d5016; font-size: 1rem; margin-bottom: 1rem; }
-    .locales a { display: inline; margin: 0 0.4rem; font-size: 0.9rem; color: #3a6b1e; text-decoration: none; }
-    .locales a:hover { text-decoration: underline; }
-    .locales div { margin-bottom: 0.5rem; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee; font-size: 0.85rem; color: #999; text-align: center; }
+    footer a { color: #3a6b1e; text-decoration: none; font-size: 0.85rem; }
+    footer a:hover { text-decoration: underline; }
+    .footer-nav { margin-bottom: 0.75rem; }
+    .footer-nav a { margin: 0 0.4rem; }
+    .footer-langs { line-height: 2; margin-bottom: 0.5rem; }
+    .footer-langs a { margin: 0 0.2rem; }
+    .footer-copy { color: #bbb; margin-top: 0.5rem; }
   </style>
 </head>
 <body>
@@ -30,26 +33,37 @@
     <a href="terms.html">Terms of Use</a>
   </div>
 
-  <div class="locales">
-    <h3>Localized Policies</h3>
-    <div>
-      <strong>English:</strong> 
-      <a href="en-GB/privacy.html">UK</a> | 
-      <a href="en-AU/privacy.html">Australia</a>
-    </div>
-    <div>
-      <strong>Español:</strong> 
-      <a href="es-ES/privacy.html">España</a> | 
-      <a href="es-MX/privacy.html">México</a>
-    </div>
-    <div>
-      <a href="de/privacy.html">Deutsch</a> | 
-      <a href="fr/privacy.html">Français</a> | 
-      <a href="it/privacy.html">Italiano</a> | 
-      <a href="nl/privacy.html">Nederlands</a> | 
-      <a href="pt-BR/privacy.html">Português (Brasil)</a> | 
+  <footer>
+    <nav class="footer-nav">
+      <a href="privacy.html">Privacy Policy</a> &bull; <a href="terms.html">Terms of Use</a>
+    </nav>
+    <div class="footer-langs">
+      <strong>Privacy Policy:</strong>
+      <a href="en-GB/privacy.html">English (UK)</a> |
+      <a href="en-AU/privacy.html">English (AU)</a> |
+      <a href="de/privacy.html">Deutsch</a> |
+      <a href="fr/privacy.html">Français</a> |
+      <a href="es-ES/privacy.html">Español (ES)</a> |
+      <a href="es-MX/privacy.html">Español (MX)</a> |
+      <a href="it/privacy.html">Italiano</a> |
+      <a href="nl/privacy.html">Nederlands</a> |
+      <a href="pt-BR/privacy.html">Português (BR)</a> |
       <a href="sv/privacy.html">Svenska</a>
     </div>
-  </div>
+    <div class="footer-langs">
+      <strong>Terms of Use:</strong>
+      <a href="en-GB/terms.html">English (UK)</a> |
+      <a href="en-AU/terms.html">English (AU)</a> |
+      <a href="de/terms.html">Deutsch</a> |
+      <a href="fr/terms.html">Français</a> |
+      <a href="es-ES/terms.html">Español (ES)</a> |
+      <a href="es-MX/terms.html">Español (MX)</a> |
+      <a href="it/terms.html">Italiano</a> |
+      <a href="nl/terms.html">Nederlands</a> |
+      <a href="pt-BR/terms.html">Português (BR)</a> |
+      <a href="sv/terms.html">Svenska</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 ShadowPuppet, LLC</p>
+  </footer>
 </body>
 </html>
