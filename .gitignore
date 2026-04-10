@@ -1,0 +1,12 @@
+# Playwright / local browser testing artifacts
+.playwright-mcp/
+test-*.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
