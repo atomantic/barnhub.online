@@ -1,0 +1,33 @@
+{
+  "name": "BarnHub — Privacy-First Barn Management",
+  "short_name": "BarnHub",
+  "description": "Barn and horse management for iPhone, iPad, and Mac. Track horses, clients, schedules, supplies, and finances — synced via your iCloud, with no email, no login, and no tracking.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "theme_color": "#2d5016",
+  "background_color": "#faf8f2",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["lifestyle", "productivity", "business"],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/id6760518680",
+      "id": "6760518680"
+    }
+  ],
+  "prefer_related_applications": true
+}
